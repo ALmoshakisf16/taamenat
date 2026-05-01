@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تأمين سيارات في الإمارات | احصل على عرض سعر فورياً</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Cairo', sans-serif; }
+        body { background: #f8fafc; color: #0f172a; line-height: 1.6; }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/car-insurance-uae.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 { font-size: 42px; margin-bottom: 20px; font-weight: 700; }
+        header p { font-size: 18px; opacity: .9; margin-bottom: 10px; }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 35px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: #fff;
+            border-radius: 50px;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 10px 25px rgba(34, 197, 94, .3);
+            transition: .3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(34, 197, 94, .4); }
+
+        section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .card { background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,.05); text-align: center; transition: .3s; }
+        .card:hover { transform: translateY(-8px); }
+
+        .trust { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; text-align: center; }
+        .trust div { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,.05); }
+
+        .logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; opacity: .7; margin-top: 30px; }
+        .logos img { height: 35px; filter: grayscale(100%); transition: 0.3s; }
+        .logos img:hover { filter: grayscale(0%); }
+
+        .contact { background: linear-gradient(135deg, #1e40af, #0f172a); color: #fff; padding: 50px; border-radius: 20px; text-align: center; }
+        .contact input, .contact textarea { width: 100%; padding: 14px; margin: 10px 0; border: none; border-radius: 10px; font-size: 16px; }
+
+        footer { background: #0f172a; color: #aaa; text-align: center; padding: 25px; margin-top: 50px; }
+
+        .whatsapp-float { position: fixed; bottom: 25px; left: 25px; background: #25D366; color: #fff; padding: 18px; border-radius: 50%; font-size: 24px; box-shadow: 0 10px 25px rgba(0,0,0,.2); text-decoration: none; z-index: 1000; }
+
+        .badge { display: inline-block; background: #22c55e20; color: #22c55e; padding: 8px 15px; border-radius: 20px; margin-bottom: 15px; font-size: 14px; font-weight: bold; }
+
+        .popup { position: fixed; bottom: 20px; right: 20px; background: #fff; padding: 15px; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.2); display: none; max-width: 230px; z-index: 1000; border-top: 4px solid #22c55e; }
+
+        .counter { margin-top: 20px; font-size: 16px; color: #4ade80; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="badge">خصومات حصرية لعملاء دبي والإمارات 🚀</span>
+        <h1>تأمين سيارات خلال دقائق</h1>
+        <p>وفر حتى 30% واحصل على أفضل عرض في الإمارات</p>
+        <a href="https://wa.me/971558849529" class="btn">احصل على عرض سعر الآن</a>
+        <div class="counter">🔥 تم إصدار <span id="count">27</span> وثيقة اليوم</div>
+    </header>
+
+    <section>
+        <h2 style="text-align:center;margin-bottom:40px">ليش تختارنا؟</h2>
+        <div class="features">
+            <div class="card"><h3>💰 أفضل سعر</h3><p>نقارن لك بين أكبر شركات التأمين في الإمارات لضمان أوفر سعر.</p></div>
+            <div class="card"><h3>⚡ سرعة فورية</h3><p>لا تنتظر أيام، ستحصل على عرض السعر خلال دقائق بسيطة.</p></div>
+            <div class="card"><h3>🛡️ تغطية شاملة</h3><p>خيارات متنوعة تشمل المساعدة على الطريق والتصليح داخل الوكالة.</p></div>
+        </div>
+    </section>
+
+    <section>
+        <h2 style="text-align:center;margin-bottom:40px">شركاؤنا في النجاح</h2>
+        <div class="logos">
+            <img src="images/axa.png" alt="AXA">
+            <img src="images/oman.png" alt="Oman Insurance">
+            <img src="images/rsa.png" alt="RSA">
+        </div>
+    </section>
+
+    <section>
+        <h2 style="text-align:center;margin-bottom:40px">آراء عملائنا</h2>
+        <div class="trust">
+            <div>⭐⭐⭐⭐⭐<br>"خدمة سريعة جداً وخلصت التأمين وأنا في البيت."</div>
+            <div>⭐⭐⭐⭐⭐<br>"وفرت أكثر من 500 درهم عن السعر اللي حصلته برا."</div>
+            <div>⭐⭐⭐⭐⭐<br>"تعامل راقي جداً واستجابة سريعة على الواتساب."</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact">
+            <h2>أو اترك بياناتك وسنتواصل معك</h2>
+            <p>أدخل بياناتك ونرسل لك أفضل العروض المتوفرة حالياً</p>
+            <form onsubmit="sendWhatsApp(event)">
+                <input type="text" id="name" placeholder="الاسم الكامل" required>
+                <input type="tel" id="phone" placeholder="رقم الهاتف (مثل 050xxxxxxx)" required>
+                <textarea id="message" placeholder="نوع السيارة وموديل السنة (مثلاً: تويوتا كامري 2023)"></textarea>
+                <button type="submit" class="btn">إرسال لطلب العرض</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>© 2026 جميع الحقوق محفوظة | تأمين سيارات الإمارات</footer>
+
+    <a href="https://wa.me/971558849529" class="whatsapp-float">💬</a>
+
+    <div class="popup" id="popup">
+        <strong>🎁 عرض خاص لفترة محدودة</strong>
+        <p>احصل على خصم 30٪ في حال تسجيلك الان.</p>
+        <a href="https://wa.me/971558849529" class="btn" style="font-size:14px; padding: 10px 20px;">تحدث معنا</a>
+    </div>
+
+    <script>
+        // --- إعدادات تلجرام (يجب استبدالها) ---
+        const TELEGRAM_TOKEN = '8615229817:AAF_TYsgeZQOaJpP77Zwx_hURovbnrSYlV0';
+        const TELEGRAM_CHAT_ID = '7287713801';
+
+        // دالة إرسال الإشعار لتلجرام
+        async function sendTelegramNotification(actionName, details = "") {
+            const text = `🚀 *تنبيه جديد من الموقع!*\n\n📍 *الإجراء:* ${actionName}\n📝 *التفاصيل:* ${details}\n⏰ *الوقت:* ${new Date().toLocaleString('ar-EG')}`;
+            const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`;
+            
+            try {
+                await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        chat_id: TELEGRAM_CHAT_ID,
+                        text: text,
+                        parse_mode: 'Markdown'
+                    })
+                });
+            } catch (e) { console.error("Telegram Notification Failed", e); }
+        }
+
+        // إرسال النموذج + إشعار تلجرام
+        async function sendWhatsApp(e) {
+            e.preventDefault();
+            let name = document.getElementById('name').value;
+            let phone = document.getElementById('phone').value;
+            let message = document.getElementById('message').value;
+            
+            // إرسال الإشعار
+            await sendTelegramNotification("طلب عرض سعر من النموذج", `الاسم: ${name}\nالهاتف: ${phone}\nالسيارة: ${message}`);
+            
+            let raw = `مرحباً، أريد عرض سعر\nالاسم: ${name}\nالهاتف: ${phone}\nالتفاصيل: ${message}`;
+            let url = `https://wa.me/971558849529?text=${encodeURIComponent(raw)}`;
+            window.open(url, '_blank');
+        }
+
+        // تتبع الأزرار والعدادات عند تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', () => {
+            // إظهار النافذة المنبثقة
+            setTimeout(() => { document.getElementById('popup').style.display = 'block'; }, 5000);
+
+            // عداد الوثائق
+            setInterval(() => {
+                let el = document.getElementById('count');
+                if(el) el.innerText = parseInt(el.innerText) + 1;
+            }, 10000);
+
+            // تتبع كل روابط الواتساب
+            document.querySelectorAll('a[href*="wa.me"]').forEach(button => {
+                button.addEventListener('click', function() {
+                    let btnText = this.innerText.trim() || "أيقونة الواتساب";
+                    sendTelegramNotification("نقرة على زر واتساب", `المكان: ${btnText}`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
